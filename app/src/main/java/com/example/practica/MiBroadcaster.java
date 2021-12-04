@@ -22,7 +22,7 @@ public class MiBroadcaster extends BroadcastReceiver {
             NotificationCompat.Builder mBuilder;
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                mBuilder = new NotificationCompat.Builder(context,CHANNEL_NAME);
+                mBuilder = new NotificationCompat.Builder(context,"21496");
             }
             else{
                 mBuilder = new NotificationCompat.Builder(context);
